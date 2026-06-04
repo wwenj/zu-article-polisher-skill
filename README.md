@@ -1,6 +1,6 @@
 # Zu Article Polisher
 
-![Zu Article Polisher cover](assets/cover.png)
+![Zu Article Polisher cover](assets/cover-no-text.png)
 
 > 说明：这个 skill 的一部分内容参考了 Humanizer skill 开源项目对 AI 写作痕迹的识别思路。当前版本已经按我的中文写作场景做了改造，更适合国内中文文档、技术文章、观点稿、口播稿、演讲稿等内容的去 AI 味和润色。
 
