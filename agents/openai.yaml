@@ -1,0 +1,4 @@
+interface:
+  display_name: "ZU 中文改稿"
+  short_description: "去除中文技术长文 AI 味并保留作者判断"
+  default_prompt: "Use $zu-article-polisher to remove AI-flavored skeletons from this Chinese technical opinion article while preserving my claims, facts, and technical caveats."
