@@ -1,5 +1,7 @@
 # Zu Article Polisher
 
+![Zu Article Polisher cover](assets/cover.png)
+
 > 说明：这个 skill 的一部分内容参考了 Humanizer skill 开源项目对 AI 写作痕迹的识别思路。当前版本已经按我的中文写作场景做了改造，更适合国内中文文档、技术文章、观点稿、口播稿、演讲稿等内容的去 AI 味和润色。
 
 Zu Article Polisher 是一个面向中文技术表达的 Codex skill。它的目标不是把文字改得更华丽，而是拆掉 AI 生成内容里常见的模板骨架，保留作者原本的判断、事实和技术边界，让文章更像一个真实、有经验的人写出来。
