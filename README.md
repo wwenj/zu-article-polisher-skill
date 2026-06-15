@@ -1,4 +1,4 @@
-# Zu Article Polisher
+# Zu Article Polisher Skill
 
 ![Zu Article Polisher cover](assets/cover-no-text.png)
 
