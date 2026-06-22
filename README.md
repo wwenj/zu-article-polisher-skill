@@ -89,3 +89,10 @@ python3 scripts/check_article_style.py <markdown-file>
 这个 skill 不是通用润色器，也不是 AI 检测器。它更适合有明确观点、有技术内容、有发布目标的中文材料。
 
 它不会替作者补事实，也不会把原文改成中立白皮书语气。缺少事实支撑时，正确做法是把表达改得更朴素，或者明确提示需要补来源。
+
+## 同类 Skill 关联推荐
+
+- 文章完成后，需要插图配图，可使用下面 Skill 做插图，会先根据文章整体内容做图片插入的判断，生成中间态插图 Prompt 标签在文章内确认，确认后生图。
+- 内部提供常用插图的多种场景、类型、样式主题自由选择
+
+[zu-article-image-skill](https://github.com/wwenj/zu-article-image-skill)
