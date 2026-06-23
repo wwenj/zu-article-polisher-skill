@@ -1,13 +1,13 @@
 <div align="center">
-  <img src="assets/logo.png" alt="Zu Article Polisher logo" width="320">
-  <h1>Zu Article Polisher</h1>
+  <img src="assets/logo.png" alt="zu-article-polisher-skill logo" width="320">
+  <h1>zu-article-polisher-skill</h1>
   <p><a href="README.md">中文</a> | <strong>English</strong></p>
   <p><strong>Remove AI-flavored scaffolding from Chinese technical writing while preserving the author's claims, facts, and technical caveats.</strong></p>
 </div>
 
 > Note: part of this skill was originally informed by the open-source Humanizer skill's approach to spotting AI writing patterns. This version has since been adapted for my own Chinese writing workflow, especially for Chinese documentation, technical essays, opinion pieces, scripts, and talks that need to sound less AI-generated and more publishable.
 
-Zu Article Polisher is a Codex skill for Chinese technical writing. Its purpose is not to make prose more ornate. It removes the formulaic scaffolding common in AI-generated drafts while preserving the author's judgment, facts, and technical boundaries, so the final piece reads like it came from a real person with real experience.
+zu-article-polisher-skill is a Codex skill for Chinese technical writing. Its purpose is not to make prose more ornate. It removes the formulaic scaffolding common in AI-generated drafts while preserving the author's judgment, facts, and technical boundaries, so the final piece reads like it came from a real person with real experience.
 
 It is useful for:
 
