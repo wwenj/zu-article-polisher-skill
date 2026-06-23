@@ -59,7 +59,7 @@ Typical edits include:
 This repository includes a helper script:
 
 ```bash
-python3 scripts/check_article_style.py <markdown-file>
+python3 zu-article-polisher/scripts/check_article_style.py <markdown-file>
 ```
 
 The script only locates suspicious patterns. It does not rewrite the article automatically. It checks for:
@@ -74,19 +74,37 @@ The script only locates suspicious patterns. It does not rewrite the article aut
 
 ```text
 .
-├── SKILL.md
-├── agents/
-│   └── openai.yaml
-├── references/
-│   └── style-guide.md
-└── scripts/
-    └── check_article_style.py
+├── README.md
+├── README.en.md
+├── assets/
+│   └── logo.png
+└── zu-article-polisher/
+    ├── SKILL.md
+    ├── agents/
+    │   └── openai.yaml
+    ├── references/
+    │   └── style-guide.md
+    └── scripts/
+        └── check_article_style.py
 ```
 
-- `SKILL.md`: the main skill instructions and workflow.
-- `references/style-guide.md`: the pattern library and rewrite principles for Chinese AI-style writing.
-- `scripts/check_article_style.py`: the pre-publication helper script.
-- `agents/openai.yaml`: OpenAI agent display metadata and the default prompt.
+- `zu-article-polisher/SKILL.md`: the main skill instructions and workflow.
+- `zu-article-polisher/references/style-guide.md`: the pattern library and rewrite principles for Chinese AI-style writing.
+- `zu-article-polisher/scripts/check_article_style.py`: the pre-publication helper script.
+- `zu-article-polisher/agents/openai.yaml`: OpenAI agent display metadata and the default prompt.
+
+## Install in Claude Code / Codex
+
+The installable skill is the `zu-article-polisher/` directory in [`wwenj/zu-article-polisher`](https://github.com/wwenj/zu-article-polisher).
+
+- Claude Code: copy it to `~/.claude/skills/zu-article-polisher/`
+- Codex: copy it to `~/.codex/skills/zu-article-polisher/`
+
+You can also ask an agent to install it:
+
+```text
+Download https://github.com/wwenj/zu-article-polisher and install its `zu-article-polisher/` directory into the personal Skill directory for the current tool.
+```
 
 ## Scope
 

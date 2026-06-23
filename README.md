@@ -58,7 +58,7 @@ zu-article-polisher-skill 是一个面向中文技术表达的 skill。它的目
 仓库内置了一个辅助脚本：
 
 ```bash
-python3 scripts/check_article_style.py <markdown-file>
+python3 zu-article-polisher/scripts/check_article_style.py <markdown-file>
 ```
 
 脚本只负责定位疑似问题，不会自动改写文章。它可以检查：
@@ -73,19 +73,37 @@ python3 scripts/check_article_style.py <markdown-file>
 
 ```text
 .
-├── SKILL.md
-├── agents/
-│   └── openai.yaml
-├── references/
-│   └── style-guide.md
-└── scripts/
-    └── check_article_style.py
+├── README.md
+├── README.en.md
+├── assets/
+│   └── logo.png
+└── zu-article-polisher/
+    ├── SKILL.md
+    ├── agents/
+    │   └── openai.yaml
+    ├── references/
+    │   └── style-guide.md
+    └── scripts/
+        └── check_article_style.py
 ```
 
-- `SKILL.md`：skill 的主说明和工作流。
-- `references/style-guide.md`：中文 AI 写作痕迹模式库和改写原则。
-- `scripts/check_article_style.py`：发布前辅助检查脚本。
-- `agents/openai.yaml`：OpenAI agent 展示信息和默认提示词。
+- `zu-article-polisher/SKILL.md`：skill 的主说明和工作流。
+- `zu-article-polisher/references/style-guide.md`：中文 AI 写作痕迹模式库和改写原则。
+- `zu-article-polisher/scripts/check_article_style.py`：发布前辅助检查脚本。
+- `zu-article-polisher/agents/openai.yaml`：OpenAI agent 展示信息和默认提示词。
+
+## 安装到 Claude Code / Codex
+
+Skill 来源是 [`wwenj/zu-article-polisher`](https://github.com/wwenj/zu-article-polisher) 仓库里的 `zu-article-polisher/` 目录。
+
+- Claude Code：复制到 `~/.claude/skills/zu-article-polisher/`
+- Codex：复制到 `~/.codex/skills/zu-article-polisher/`
+
+也可以直接让 Agent 安装：
+
+```text
+请从 https://github.com/wwenj/zu-article-polisher 下载仓库，并把其中的 `zu-article-polisher/` 目录安装到当前工具的个人 Skill 目录。
+```
 
 ## 使用边界
 
