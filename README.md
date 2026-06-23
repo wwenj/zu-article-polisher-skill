@@ -1,6 +1,9 @@
-# Zu Article Polisher
-
-![Zu Article Polisher cover](assets/cover-no-text.png)
+<div align="center">
+  <img src="assets/logo.png" alt="Zu Article Polisher logo" width="320">
+  <h1>Zu Article Polisher</h1>
+  <p><strong>中文</strong> | <a href="README.en.md">English</a></p>
+  <p><strong>去除中文技术长文的 AI 味，保留作者判断、事实和技术边界。</strong></p>
+</div>
 
 > 说明：这个 skill 的一部分内容参考了 Humanizer skill 开源项目对 AI 写作痕迹的识别思路。当前版本已经按我的中文写作场景做了改造，更适合国内中文文档、技术文章、观点稿、口播稿、演讲稿等内容的去 AI 味和润色。
 
